@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Over lapping</title>
+    <link rel="stylesheet" href="demo3.css">
+    
+</head>
+
+<body>
+    
+        <button class="btn" onclick="btnopen()" type="button">Check Me...</button>
+    
+    <div class="box" id="boxitem">
+        <button class="fright" onclick="btnclose()">Close</button>
+        
+            <iframe  class="iframe" src="https://nisha312.github.io/htmll777.com/"frameborder="0"></iframe>
+        </div>
+    
+    <script>
+        function btnopen() {
+            document.getElementById("boxitem").style.display = 'block';
+        }
+        function btnclose() {
+            document.getElementById("boxitem").style.display = 'none';
+        }
+        
+    </script>
+</body>
+
+</html>
